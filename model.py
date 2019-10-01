@@ -21,6 +21,7 @@ def load_dataset(filename):
   intent = df["Intent"]
   unique_intent = list(set(intent))
   sentences = list(df["Sentence"])
+  print("hello")
   return (intent, unique_intent, sentences)
 
 
