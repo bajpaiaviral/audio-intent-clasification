@@ -114,6 +114,7 @@ encoded_output.shape
 
 def one_hot(encode):
   o = OneHotEncoder(sparse = False)
+  print("check your header")
   return(o.fit_transform(encode))
 
 
